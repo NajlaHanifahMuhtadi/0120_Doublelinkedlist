@@ -187,3 +187,23 @@ public:
         }
     }
 };
+
+int main()
+{
+    DoubleLinkedList list;
+    char choice;
+
+    do
+    {
+        cout << "\nMenu:\n";
+        cout << "1. Add Record\n" << endl;
+        cout << "2. Delete Record\n" << endl;
+        cout << "3. View Ascending\n" << endl;
+        cout << "4. View Descending\n" << endl;
+        cout << "5. Search Record\n" << endl;
+        cout << "6. Exit\n" << endl;
+        cout << "Enter your choice: ";
+
+        cin >> choice;
+    }
+};
